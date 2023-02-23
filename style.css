@@ -27,25 +27,28 @@ body{
 
 header{
         
-        background-image:linear-gradient(90deg,#38f25798, #41b52da3) ;
+    background-image:linear-gradient(to bottom,#38f25798, #41b52da3) ;
         text-align: center;
         height: 250px;
         margin-top: -35px;
 }
 header > h1{
     color: rgb(11, 13, 12);
-
-    font-size: 50px;
-    font-family: var(--fonte-droid) ;
+    padding-top: 30px;
+  
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
     text-shadow: 1px 1px 2px rgba(249, 208, 208, 0.891);
 }
+
 header > p {
     max-width: 500px;
     margin: auto;
+    margin-top: 8px;
 
     color: rgb(255, 254, 254);
-    font-size: 20px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline rgba(0, 0, 0, 0.084);
     text-shadow: 1px 1px 1px rgb(11, 10, 10);
@@ -54,7 +57,7 @@ header > p {
 nav{
 
 
-    background-image:linear-gradient(90deg,#38f25798, #41b52da3) ;
+    background-color:  #41b52da3 ;
     height: 29px;
     margin-bottom: 2px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.434);
@@ -84,8 +87,8 @@ nav > a:hover{
 main{
     background-color: white;
 
-    min-width: 320px ;
-    max-width: 800px; 
+    min-width: 200px ;
+    max-width: 1000px; 
 
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -98,7 +101,13 @@ main{
 main  h1,h2,#h1m{ font-family: 'Orbitron', sans-serif;
 
 }
+main h1{
+
+    font-size: 20px;
+}
+
 main  h2{
+    font-size: 18px;
     border-radius: 20px;
     text-indent: 10px;
     padding-left:10px ;
@@ -124,7 +133,7 @@ main  a {
     transition: 0.5s;
 }
 
- main > img{
+ main  img{
 
     width: 100%;
 }
